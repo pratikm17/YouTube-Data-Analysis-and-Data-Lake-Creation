@@ -1,4 +1,4 @@
-# YouTube API integration and Category Prediction
+# YouTube Data Analysis and Data Lake Creation
 
 Introduction:
 The YouTube Data Analysis Project efficiently manages, transforms, and analyzes structured and semi-structured YouTube video data. In this project, I Built an ETL(Extract, Transform, Load) pipeline using a static dataset of trending YouTube videos. The pipeline will retrieve data from the dataset, transform it to a desired format(parquet), and load data into s3. After the data has been loaded, a glue crawler will be used to create a glue catalog which will be used later on for analytics using Athena.
